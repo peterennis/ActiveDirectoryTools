@@ -1,0 +1,7 @@
+version: 2
+updates:
+- package-ecosystem: nuget
+  directory: "/src/ADT06.ADAAL"
+  schedule:
+    interval: daily
+  open-pull-requests-limit: 10
